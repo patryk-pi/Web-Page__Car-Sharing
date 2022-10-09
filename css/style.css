@@ -169,7 +169,7 @@
     width: 1088px;
     display: flex;
     flex-direction: column;
-    margin: 100px auto;
+    margin: 100px auto 150px;
 }
 
 .blog-header {
@@ -244,5 +244,34 @@
     font-family: Nunito Sans, sans-serif;
     font-size: 14px;
     padding: 10px 30px;
+}
 
+.service {
+    background-color: #28272C;
+    width: 100%;
+    padding: 80px 0 80px;
+}
+
+.service .blog-header,
+.service .blog-article-header {
+    color: white;
+}
+
+.service .blog-header {
+    margin-bottom: 50px;
+}
+
+.service .article-text {
+    color: #B2B2B2;
+}
+
+.service-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-image {
+    width: 170px;
 }
