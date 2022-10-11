@@ -74,10 +74,13 @@
     font-size: 35px;
     color: #FF0000;
     font-weight: 800;
+    text-transform: uppercase;
 }
 
 .header-logo-name-white {
     color: white;
+    font-weight: 500;
+
 }
 
 .navigation {
@@ -170,7 +173,7 @@
     width: 1088px;
     display: flex;
     flex-direction: column;
-    margin: 100px auto 150px;
+    margin: 100px auto 100px;
 }
 
 .blog-header {
@@ -249,7 +252,7 @@
     padding: 10px 30px;
 }
 
-.service {
+.service, .footer {
     background-color: #28272C;
     width: 100%;
     padding: 80px 0 80px;
@@ -290,7 +293,7 @@
 
 .form-photo {
     width: 444px;
-    height: 316.5px;
+    height: 316px;
 }
 
 .form-container {
@@ -361,6 +364,7 @@ textarea {
 input:focus,
 textarea:focus {
     border: 1px solid #FF0000;
+    box-shadow: 0 1px 6px #FF00004D;
 }
 
 .container {
@@ -418,7 +422,6 @@ textarea:focus {
     height: 10px;
     border: solid red;
     border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
@@ -441,4 +444,72 @@ textarea:focus {
     line-height: 14px;
     font-size: 10px;
     font-weight: 300;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.footer-logo .header-logo-name {
+    font-size: 25px;
+}
+
+.footer-logo {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 25px;
+
+}
+
+.footer-container {
+    width: 1088px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.footer-nav {
+    display: flex;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    gap: 150px;
+    font-weight: 600;
+}
+
+.footer-nav a:link,
+.footer-nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    align-self: flex-end;
+    color: #D1D1D1;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.footer-nav a:hover,
+.footer-nav a:active {
+    color: red;
+    text-decoration: none;
+}
+
+.left-nav,
+.right-nav {
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+}
+
+.blog:last-of-type {
+    margin-bottom: 0;
 }
